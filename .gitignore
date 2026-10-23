@@ -1,0 +1,66 @@
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# Testing / linting
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.tox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ============================================================
+# AWS
+# ============================================================
+# Credentials & config
+.env
+.env.*
+!.env.example
+.aws/
+credentials.json
+*.pem
+*.key
+
+# AWS CLI / SDK artifacts
+.aws/credentials
+.aws/config
+
+# ============================================================
+# Parquet / Data
+# ============================================================
+*.parquet
+*.snappy
+data/
+output/
+
+# ============================================================
+# OS / IDE
+# ============================================================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.log   
